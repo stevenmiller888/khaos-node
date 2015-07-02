@@ -1,0 +1,29 @@
+{
+  "schema": {
+    "name": {
+      "type": "string",
+      "label": "What's your project's name?",
+      "hint": "(eg: \"mind, matter, gity\")"
+    },
+    "description": {
+      "type": "string",
+      "label": "What will the project do?",
+      "hint": "(eg: \"Matter is a tiny collection of UI components\")"
+    },
+    "author":{
+      "type": "boolean",
+      "label": "Who is creating this project?",
+      "hint": "(\"stevenmiller888\" or \"segmentio\")"
+    },
+    "options": {
+      "type": "boolean",
+      "label": "Does your core object need to accept options?",
+      "hint": "(\"yes\" or \"no\")"
+    },
+    "version": {
+      "type": "string",
+      "label": "What version of Node will this run on?",
+      "hint": "(\"0.12\")"
+    }
+  }
+}
